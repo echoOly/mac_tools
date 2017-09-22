@@ -14,11 +14,13 @@
 
 用文本编辑器或 vi 打开 `.zshrc` 进行以下编辑:
 
-        ZSH_THEME=pygmalion
+        ZSH_THEME="dpoggi"
         alias zshconfig="vi ~/.zshrc"
+        plugins=(git history history-substring-search jsontools laravel python autojump osx wd)
+        
+        ### 选择性使用下面快捷配置
         alias envconfig="vi ~/Projects/config/env.sh"
-        plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
-
+        
 用文本编辑器或 vi 打开 `~/Projects/config/env.sh` 进行以下编辑:
 ~~~
     #!/bin/zsh
@@ -50,10 +52,31 @@
 ~~~
 
 ---
-`译注：`
+`注：`
 
 如果是新增环境变量或者是修改环境变量的值，都需要 source 一下才能立即生效。
 
 如果是删除一个环境变量，必须输入 exit 以 logout 当前 shell ，然后再重新打开一个新的 shell 并 login 才能生效。
 
+### Zsh插件
+zsh提供了丰富的插件，具体见上面`oh-my-zsh`的拓展，下面例举实用插件：
 
+#### 插件wd
+能够建立快捷进入某个目录，如：
+
+建立快捷
+
+    $ cd /home/local/www
+    $ wd add www
+
+使用快捷，进入目录`/home/local/www`
+
+    $ wd www
+ 
+#### 相关快捷键
+
+- `ctrl + r` : 历史指令联想
+- `ctrl + w` : 删除当前指令前一个单词
+- `ctrl + u` : 删除当前指令行
+- `ctrl + a` ：指令行首
+- `ctrl + e` ：指令行尾
