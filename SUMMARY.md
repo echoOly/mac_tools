@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [简介](README.md)
 * [Homebrew](Homebrew/README.md)
    * [Usage](Homebrew/Usage.md)
    * [Cask](Homebrew/Cask.md)
