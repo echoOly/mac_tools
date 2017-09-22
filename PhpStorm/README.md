@@ -7,10 +7,24 @@
 
 ### Usage
 
-PhpStorm主题和配置，只需要导入包即可
+* 激活PhpStorm
+    - 选择server激活
+    
+    ```json
+    http://idea.imsxm.com/
+    
+    http://114.215.133.70:41017﻿/ 
+    
+    http://mcpmcc.com:1017 
+    
+    http://idea.pjoc.pub 
+    
+    http://jetbrains.tencent.click
+    ```
 
-方法如下：
-- 下载主题和配置[网盘地址](https://pan.baidu.com/s/1c1WS6LM)，密码: sdgg
-- 打开PhpStorm，`菜单file` -> `import settting`, 导入主题和配置文件
-- `command + ,`, `Editor` -> `Colors&Fonts` -> `选择主题，leone Dark2`
-- 重启PhpStorm
+* PhpStorm主题和配置，只需要导入包即可方法如下：
+
+    - 下载主题和配置[网盘地址](https://pan.baidu.com/s/1c1WS6LM)，密码: sdgg
+    - 打开PhpStorm，`菜单file` -> `import settting`, 导入主题和配置文件
+    - `command + ,`, `Editor` -> `Colors&Fonts` -> `选择主题，leone Dark2`
+    - 重启PhpStorm
