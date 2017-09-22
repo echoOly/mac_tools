@@ -10,5 +10,4 @@ Mac | Linux 开发配置手册
 
 
 * [阅读手册](http://aaaaaashu.gitbooks.io/mac-dev-setup/content/)
-* [Github地址](https://github.com/Aaaaaashu/Mac-dev-setup)
-* [联系译者](http://aaaaaashu.me/)
+* [Github地址](https://github.com/echoOly/mac_tools)
