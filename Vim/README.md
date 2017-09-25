@@ -43,5 +43,6 @@ clone配置文件
     $ :BundleInstall
 
 ### 运行截图
+![screenshot.png](../statics/screenshot.png?raw=true)
 
-![screenshot.png](https://github.com/echoOly/vim/blob/master/screenshot.png?raw=true)
+/// ![screenshot.png](https://github.com/echoOly/vim/blob/master/screenshot.png?raw=true)
