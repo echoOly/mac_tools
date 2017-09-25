@@ -1,7 +1,7 @@
 # Summary
 
-* [简介](README.md)
-* [Homebrew](Homebrew/README.md)
+1. [简介](README.md)
+2. [Homebrew](Homebrew/README.md)
    * [Usage](Homebrew/Usage.md)
    * [Cask](Homebrew/Cask.md)
 * [Git](Git/README.md)

@@ -1,6 +1,6 @@
 # Zsh
 
-我们将安装 `zsh` ，其拓展功能和主题将由 `oh-my-zsh` 提供。其中`Env.sh` 文件用于维护别名（aliases），输出（exports）和路径改变（path changes）等等，以免影响 `~/.zshrc`。
+我们将安装 `zsh` ，其拓展功能和主题将由 [oh-my-zsh](http://ohmyz.sh/) 提供。其中`Env.sh` 文件用于维护别名（aliases），输出（exports）和路径改变（path changes）等等，以免影响 `~/.zshrc`。
 
 ### Zsh
 

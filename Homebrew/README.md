@@ -2,6 +2,7 @@
 
 包管理工具可以让你安装和更新程序变得更方便，目前在 OS X 系统中最受欢迎的包管理工具是 [Homebrew](http://brew.sh/).
 
+官方地址：[Homebrew](https://brew.sh/index_zh-cn.html)
 ### 安装
 
 在安装 Homebrew 之前，需要将 **Xcode Command Line Tools** 安装完成，这样你就可以使用基于 Xcode Command Line Tools 编译的 Homebrew。

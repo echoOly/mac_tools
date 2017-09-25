@@ -9,7 +9,7 @@ Mac | Linux 开发配置手册
 * 除了部分数据只支持Mac外，大部分同样适用于Linux。
 
 
-* [阅读手册](http://aaaaaashu.gitbooks.io/mac-dev-setup/content/)
+* [阅读手册](https://echooly.gitbooks.io/mac-linux/content/)
 * [Github地址](https://github.com/echoOly/mac_tools)
 
 # gitbook安装
