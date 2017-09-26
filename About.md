@@ -6,6 +6,6 @@
 15717867
 
 ### 支持我们
-* ![weixin_pay.jpg](../statics/weixin_pay.jpg)
+* ![weixin_pay.jpg](https://echooly.gitbooks.io/mac-linux/statics/weixin_pay.jpg)
 
-* ![ali_pay.jpg](../statics/ali_pay.jpg)
+* ![ali_pay.jpg](https://echooly.gitbooks.io/mac-linux/statics/ali_pay.jpg)
