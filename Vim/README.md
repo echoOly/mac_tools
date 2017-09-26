@@ -7,9 +7,10 @@
 
 #### 执行shell脚本自动安装：(以ubuntu为例)
 
+    $ mv -f ~/.vimrc ~/.vimrc_old
+    $ mv -f ~/vim ~/vim_old
     $ cd ~/ && git clone https://github.com/echoOly/vim.git
-    $ mv ~/vim ~/.vim
-    $ sh setup.sh
+    $ cd ~/vim && sh setup.sh
 
 #### 手动安装：(以ubuntu为例)
 
@@ -35,7 +36,7 @@ clone配置文件
     $ cd ~/ && git clone https://github.com/echoOly/vim.git
     $ mv ~/vim ~/.vim`
     $ cp ~/.vim/.vimrc ~/
-    $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 
 打开vim并执行bundle程序
 
