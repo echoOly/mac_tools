@@ -34,7 +34,7 @@ python代码格式化工具
 clone配置文件
 
     $ cd ~/ && git clone https://github.com/echoOly/vim.git
-    $ mv ~/vim ~/.vim`
+    $ mv ~/vim ~/.vim
     $ cp ~/.vim/.vimrc ~/
     $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 
