@@ -14,6 +14,7 @@
 7. [Vim编辑器](Vim/README.md)
    * [Usage](Vim/Usage.md)
 8. [PhpStorm](PhpStorm/README.md)
+   * [Usage](PhpStorm/Usage.md)
 8. [关于我们](About.md)
 
 
