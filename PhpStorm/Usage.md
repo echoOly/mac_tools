@@ -36,3 +36,4 @@
 |`Command` + `Shift` + `U` |对选中的代码进行大小写轮流转换
 |`Command` + `K`| push文件到仓库
 |`Command` + `T`| 从仓库pull文件
+|`Option` + 鼠标区域选择| 行区域选择
