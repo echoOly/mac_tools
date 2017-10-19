@@ -31,7 +31,8 @@
 |`Command` + `9` | 文件版本修改信息
 |`command` + `Option` + `I` | 光标所在行 或 选中部分进行自动代码缩进，有点类似格式化
 |`Command` + `Option` + `F7`| 显示使用的地方。寻找被该类或是变量被调用的地方，用弹出框的方式找出来
-|`Command` + `Option` + `Z` | 取消撤销
+|`Command` + `Option` + `Z` | 文件修改记录
+|`Command` + `Shift` + `Z` | 取消撤销
 |`Command` + `Z` | 撤销
 |`Command` + `Shift` + `U` |对选中的代码进行大小写轮流转换
 |`Command` + `K`| push文件到仓库
