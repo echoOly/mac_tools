@@ -103,7 +103,7 @@
 |`:Tab/=` or `:Tab/=>`  | 按照`=`、`=>` 对齐 快捷使用 `t` + `=`
 |`ga` + `任意个字符` or `EasyAlign + enter` +  `任意个字符` | 按照字符对齐,支持正则
 |`:tabe [filename]`   | 新开tab打开文件filename； `gt`,`gT`进行tab切换 
-|`:sp [filename]`  | 水平分割窗口
+|`:vsp [filename]`  | 水平分割窗口
 |`:sp [filename]` | 垂直分割窗口
 |`Ctrl` + `w` | 快速在窗口间切换
 |`:w`     | 保存代码之后会自动检查代码错误与规范
