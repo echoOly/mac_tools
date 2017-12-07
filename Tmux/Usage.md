@@ -57,6 +57,28 @@ set -g base-index 1
 setw -g pane-base-index 1
                                                                                                                                                               
 setw -g mode-keys vi
+
+
+# 状态栏
+  # 颜色
+  set -g status-bg black
+  set -g status-fg white
+ 
+  # 对齐方式
+  set-option -g status-justify centre
+ 
+  # 左下角
+  set-option -g status-left '#[bg=black,fg=green][#[fg=cyan]#S#[fg=green]]'
+  set-option -g status-left-length 20
+ 
+  # 窗口列表
+  setw -g automatic-rename on
+  set-window-option -g window-status-current-format '#[dim]#I:#[default]#W#[fg=grey,dim]'
+  set-window-option -g window-status-format '#[fg=cyan,bold]#I#[fg=blue]:#[fg=cyan]#W#[fg=dim]'
+ 
+  # 右下角
+  set -g status-right '#[fg=green][#[fg=cyan]%Y-%m-%d#[fg=green]]'
+  
 ```
 
 >其他设置
@@ -106,7 +128,6 @@ setw -g mode-mouse on
 |`PREFIX + z`   | 暂时把一个窗体放到最大
 |`PREFIX + q`   | 查看所有窗格的编号
 
-
 #### 附加技能
 有时情况需要登录堡垒机，才能登录远程机器；登录堡垒机时，避免反反复复的输入token，我们可以配置复用ssh链接；创建（编辑）文件~/.ssh/config， 内容如下：
 ```angularjs
@@ -116,3 +137,4 @@ ControlPath ~/.ssh/master-%r@%h:%p
 ControlPersist yes
 ```
 > 打开不同终端远程登录同一个地址时不需要每次都输入密码了
+

@@ -46,4 +46,4 @@ clone配置文件
     $ :BundleInstall
 
 ### 运行截图
-![screenshot.png](https://echooly.gitbooks.io/mac-linux/content/statics/screenshot.png?raw=true)
+![screenshot.png](../statics/screenshot.png?raw=true)
