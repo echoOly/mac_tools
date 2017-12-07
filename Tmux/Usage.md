@@ -105,3 +105,14 @@ setw -g mode-mouse on
 |`PREFIX + [`   | 滚屏
 |`PREFIX + z`   | 暂时把一个窗体放到最大
 |`PREFIX + q`   | 查看所有窗格的编号
+
+
+#### 附加技能
+有时情况需要登录堡垒机，才能登录远程机器；登录堡垒机时，避免反反复复的输入token，我们可以配置复用ssh链接；创建（编辑）文件~/.ssh/config， 内容如下：
+```angularjs
+host *
+ControlMaster auto
+ControlPath ~/.ssh/master-%r@%h:%p
+ControlPersist yes
+```
+> 打开不同终端远程登录同一个地址时不需要每次都输入密码了
