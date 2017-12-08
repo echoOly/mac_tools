@@ -25,4 +25,6 @@
 
 - - -
 
-#### 建议阅读 [git使用教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137402760310626208b4f695940a49e5348b689d095fc000)
+#### 建议阅读 
+ * [git使用教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137402760310626208b4f695940a49e5348b689d095fc000)
+ * [猴子都能懂的git](https://backlogtool.com/git-tutorial/cn/intro/intro1_1.html)

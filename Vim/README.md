@@ -33,6 +33,8 @@ python代码格式化工具
     
 clone配置文件
 
+    $ mv -f ~/.vimrc ~/.vimrc_old
+    $ mv -f ~/vim ~/vim_old
     $ cd ~/ && git clone https://github.com/echoOly/vim.git
     $ mv ~/vim ~/.vim
     $ cp ~/.vim/.vimrc ~/
@@ -44,4 +46,4 @@ clone配置文件
     $ :BundleInstall
 
 ### 运行截图
-![screenshot.png](https://echooly.gitbooks.io/mac-linux/content/statics/screenshot.png?raw=true)
+![screenshot.png](../statics/screenshot.png?raw=true)

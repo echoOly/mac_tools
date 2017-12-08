@@ -16,7 +16,7 @@
 
         ZSH_THEME="dpoggi"
         alias zshconfig="vi ~/.zshrc"
-        plugins=(git history history-substring-search jsontools laravel python autojump osx wd)
+        plugins=(git history history-substring-search jsontools python autojump osx wd extract zsh-autosuggestions)
         
         ### 选择性使用下面快捷配置
         alias envconfig="vi ~/Projects/config/env.sh"
@@ -80,3 +80,6 @@ zsh提供了丰富的插件，具体见上面`oh-my-zsh`的拓展，下面例举
 - `ctrl + u` : 删除当前指令行
 - `ctrl + a` ：指令行首
 - `ctrl + e` ：指令行尾
+- `ctrl + e` ：指令行尾
+- `ctrl + e` ：指令行尾
+- `x cms.tar.gz` : 解压文件

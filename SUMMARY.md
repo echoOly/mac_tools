@@ -9,11 +9,16 @@
 4. [Vagrant](Vagrant/README.md)
    * [Homestead](Vagrant/homestead.md)
 5. [MySql](MySql/README.md)
-6. [iTerm](Zsh/README.md)
+6. [Zsh](Zsh/README.md)
    * [ZSH](Zsh/zsh.md)
+7. [Tmux](Tmux/README.md)
+   * [Usage](Tmux/Usage.md)
 7. [Vim编辑器](Vim/README.md)
    * [Usage](Vim/Usage.md)
 8. [PhpStorm](PhpStorm/README.md)
+   * [Usage](PhpStorm/Usage.md)
+8. [Xhprof UI](Xhprof/README.md)
+   * [Usage](Xhprof/Usage.md)
 8. [关于我们](About.md)
 
 
