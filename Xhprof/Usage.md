@@ -31,7 +31,7 @@ XHProf UI
 
 Installation
 -------------
-> 依赖环境 (以mac为例)
+#### 依赖环境 (以mac为例)
 
 * 安装运行php的web服务环境；安装php扩展`xhprof.so`, `mysql.so`，并配置好`php.ini`；
 ```angularjs
@@ -41,6 +41,7 @@ brew install php5-xhprof php5-mysql
 > 注意：
 > 对于xhprof扩展，php5.4及以上版本不能在pecl中下载，不支持。需要在github上下载https://github.com/facebook/xhprof。
 > 另外xhprof已经很久没有更新过了，截至目前还不支持php7。当前目录extension已经存在源代码，只需要编译一下，如下：
+
 ```
 cd extension/
 sudo phpize
@@ -55,16 +56,19 @@ extension=xhprof.so
 [mysql]
 extension=mysql.so
 ```
+
 * 安装 `MySQL server`；
 ```angularjs
 brew install mysql
 mysql.server restart
 ```
+
 * 安装`graphviz`；执行 `dot --help`可用；
 ```angularjs
 brew install graphviz
 dot --help
 ```
+
 * 克隆该仓库到web服务器的工作目录；
 ```angularjs
 git clone https://github.com/echoOly/xhprof.git
@@ -75,7 +79,8 @@ location ~ \.(css|js)$ {
     root  /home/www/;
 }
 ```
-> 项目配置
+
+#### 项目配置
 * 移动 `xhprof_lib/config.sample.php` 为 `xhprof_lib/config.php`
 ```angularjs
 mv xhprof_lib/config.sample.php xhprof_lib/config.php
@@ -141,7 +146,8 @@ if($domain_weight = getenv('xhprof_weight')) {
 
 ```
 
-> 使用方式
+#### 使用方式
+
 * 创建数据库 并导入表结构：
 如果使用`mysql5.6` 会报` Incorrect integer value: '' for column 'cpu' at row 1`错误，请把表结构中的`int`字段都改成`varchar`；
 ```
@@ -170,6 +176,7 @@ if($domain_weight = getenv('xhprof_weight')) {
  KEY `timestamp` (`timestamp`)
  ) ENGINE=innodb DEFAULT CHARSET=utf8;
 ```
+
 * 引入监控入口文件 `xhprof/external/header.php`
     * 在需要监控的项目的`index.php`，直接引入：
     ```
@@ -179,15 +186,23 @@ if($domain_weight = getenv('xhprof_weight')) {
     ```angularjs
     auto_prepend_file=/var/www/xhprof/external/header.php
     ```
+
 * 访问采样数据，请求`/xhprof/xhprof_html/index.php`
+
 示例网站
+------------
+
 * 访问网站[9aipay.com](http://www.9aipay.com)
 * 采样数据[xhprof ui](http://www.9aipay.com/xhprof/xhprof_html/)
+
 > 更多精彩
+
 * [mac_tools](http://www.9aipay.com/book)
 
-效果图：
-    * 首页列表 ![首页列表](../statics/homelist.png)
-    * 调用详细1 ![调用详细1](../statics/detail1.png)
-    * 调用详细2 ![调用详细2](../statics/detail2.png)
-    * 调用关系图 ![调用关系图](../statics/callgraph.png)
+效果图
+------------
+
+* 首页列表 ![首页列表](../statics/homelist.png)
+* 调用详细1 ![调用详细1](../statics/detail1.png)
+* 调用详细2 ![调用详细2](../statics/detail2.png)
+* 调用关系图 ![调用关系图](../statics/callgraph.png)
