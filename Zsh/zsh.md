@@ -61,7 +61,7 @@
 #### 默认进入zsh
 ```angularjs
     $ cat /etc/shells
-    $ chsh -s /bin/zsh
+    $ chsh -s /bin/zsh 
 ```
 
 ### Zsh插件
