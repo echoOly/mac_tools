@@ -58,6 +58,12 @@
 
 如果是删除一个环境变量，必须输入 exit 以 logout 当前 shell ，然后再重新打开一个新的 shell 并 login 才能生效。
 
+#### 默认进入zsh
+```angularjs
+    $ cat /etc/shells
+    $ chsh -s /bin/zsh 
+```
+
 ### Zsh插件
 zsh提供了丰富的插件，具体见上面`oh-my-zsh`的拓展，下面例举实用插件：
 
