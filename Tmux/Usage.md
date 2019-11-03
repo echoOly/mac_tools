@@ -55,29 +55,30 @@ set -g prefix C-a
  
 set -g base-index 1
 setw -g pane-base-index 1
-                                                                                                                                                              
 setw -g mode-keys vi
 
-
 # 状态栏
-  # 颜色
-  set -g status-bg black
-  set -g status-fg white
- 
-  # 对齐方式
-  set-option -g status-justify centre
- 
-  # 左下角
-  set-option -g status-left '#[bg=black,fg=green][#[fg=cyan]#S#[fg=green]]'
-  set-option -g status-left-length 20
- 
-  # 窗口列表
-  setw -g automatic-rename on
-  set-window-option -g window-status-current-format '#[dim]#I:#[default]#W#[fg=grey,dim]'
-  set-window-option -g window-status-format '#[fg=cyan,bold]#I#[fg=blue]:#[fg=cyan]#W#[fg=dim]'
- 
-  # 右下角
-  set -g status-right '#[fg=green][#[fg=cyan]%Y-%m-%d#[fg=green]]'
+# 颜色
+set -g status-bg black
+set -g status-fg white
+
+# 对齐方式
+set-option -g status-justify centre
+
+# 左下角
+set-option -g status-left '#[bg=black,fg=green][#[fg=cyan]#S#[fg=green]]'
+set-option -g status-left-length 20
+
+# 窗口列表
+setw -g automatic-rename on
+set-window-option -g window-status-current-format '#[dim]#I:#[default]#W#[fg=grey,dim]'
+set-window-option -g window-status-format '#[fg=cyan,bold]#I#[fg=blue]:#[fg=cyan]#W#[fg=dim]'
+
+# 右下角
+set -g status-right '#[fg=green][#[fg=cyan]%Y-%m-%d#[fg=green]]'
+#开启window事件提示
+setw -g monitor-activity on
+set -g visual-activity on
   
 ```
 
