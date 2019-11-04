@@ -112,22 +112,29 @@ setw -g mode-mouse on
 |快捷键 |说明
 |--------|--------
 |`PREFIX + c`   | 创建新的窗口
-|`PREFIX + space`  | 切换到上一个活动的窗口
-|`PREFIX + &`   | 关闭一个窗口，输入`exit`等效
 |`PREFIX + 1~9`   | 使用窗口号切换
+|`PREFIX + &`   | 关闭一个窗口，输入`exit`等效
 |`PREFIX + ,`   | 命名窗口
 |`PREFIX + .`   | 移动窗口
+|`PREFIX + n`　　|进入下一个窗口
+|`PREFIX + p`　　|进入上一个窗口
 
 #### Pane相关操作
 
 |快捷键 |说明
 |--------|--------
+|`PREFIX + [`   | 滚屏
 |`PREFIX + "`   | 创建垂直分割面板
 |`PREFIX + %`   | 创建水平分割面板
 |`PREFIX + 方向键` or `PREFIX + o`   | 切换到下一个窗格
-|`PREFIX + [`   | 滚屏
 |`PREFIX + z`   | 暂时把一个窗体放到最大
 |`PREFIX + q`   | 查看所有窗格的编号
+|`PREFIX + space`  | 重新排列窗格
+|`PREFIX + t`  | 在当前窗格显示时间
+|`PREFIX + }`  | 与下一个窗格交换位置
+|`PREFIX + {`  | 与上一个窗格交换位置
+|`PREFIX + x`  | 关闭当前窗格
+
 
 #### 附加技能
 有时情况需要登录堡垒机，才能登录远程机器；登录堡垒机时，避免反反复复的输入token，我们可以配置复用ssh链接；创建（编辑）文件~/.ssh/config， 内容如下：
