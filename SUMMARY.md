@@ -8,7 +8,6 @@
     * [Git ignore](Git/gitignore.md)
 * [Tmux](Tmux/README.md)
     * [Usage](Tmux/Usage.md)
-* [Zsh](Zsh/README.md)
-    * [ZSH](Zsh/zsh.md)
+* [Zsh](Zsh/zsh.md)
 * [Vim编辑器](Vim/README.md)
     * [Usage](Vim/Usage.md)

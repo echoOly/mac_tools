@@ -1,6 +1,6 @@
 # Zsh
 
-我们将安装 `zsh` ，其拓展功能和主题将由 [oh-my-zsh](http://ohmyz.sh/) 提供。其中`Env.sh` 文件用于维护别名（aliases），输出（exports）和路径改变（path changes）等等，以免影响 `~/.zshrc`。
+我们首先安装 `zsh` ，然后安装其拓展功能和主题 [oh-my-zsh](http://ohmyz.sh/) 。其中`Env.sh` 文件用于维护别名（aliases），输出（exports）和路径改变（path changes）等等，以免影响 `~/.zshrc`。
 
 ### Zsh
 
@@ -15,12 +15,11 @@
 用文本编辑器或 vi 打开 `.zshrc` 进行以下编辑:
 
         ZSH_THEME="dpoggi"
-        alias zshconfig="vi ~/.zshrc"
-        plugins=(git history history-substring-search jsontools python autojump osx wd extract zsh-autosuggestions)
-        
+        plugins=(git history history-substring-search jsontools python osx wd extract)
+
         ### 选择性使用下面快捷配置
         alias envconfig="vi ~/Projects/config/env.sh"
-        
+
 用文本编辑器或 vi 打开 `~/Projects/config/env.sh` 进行以下编辑:
 ~~~
     #!/bin/zsh
@@ -85,7 +84,5 @@ zsh提供了丰富的插件，具体见上面`oh-my-zsh`的拓展，下面例举
 - `ctrl + w` : 删除当前指令前一个单词
 - `ctrl + u` : 删除当前指令行
 - `ctrl + a` ：指令行首
-- `ctrl + e` ：指令行尾
-- `ctrl + e` ：指令行尾
 - `ctrl + e` ：指令行尾
 - `x cms.tar.gz` : 解压文件
